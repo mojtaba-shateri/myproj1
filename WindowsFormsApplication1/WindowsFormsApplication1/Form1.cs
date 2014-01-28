@@ -16,5 +16,15 @@ namespace WindowsFormsApplication1
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (true)
+            {
+                var b = 10;
+                MessageBox.Show("a");
+            }
+            int a = 2;
+        }
     }
 }
